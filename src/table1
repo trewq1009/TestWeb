@@ -1,0 +1,19 @@
+create table users (
+    id varchar2(30) not null,
+    pw varchar2(30) not null,
+    name varchar2(30) not null,
+    email varchar2(30),
+    phone varchar2(30),
+    address varchar2(30),
+    addr_detail varchar2(30)
+
+);
+
+alter table users add CONSTRAINT users_pk primary key (id);
+
+
+
+
+
+
+
