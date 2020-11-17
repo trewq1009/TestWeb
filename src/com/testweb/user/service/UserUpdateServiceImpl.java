@@ -23,7 +23,7 @@ public class UserUpdateServiceImpl implements UserService {
 		String phone_second = request.getParameter("phone_second");
 		String phone_third = request.getParameter("phone_third");
 		UserVO vo = new UserVO(id, pw, name, email, email_provider, address, address_detail, phone_first, phone_second, phone_third, null);
-		
+		System.out.println(name);
 		UserDAO dao = UserDAO.getInstance();
 		int result = dao.update(vo);
 		

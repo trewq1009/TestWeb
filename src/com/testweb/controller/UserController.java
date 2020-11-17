@@ -40,7 +40,6 @@ public class UserController extends HttpServlet {
 		UserService service;
 		
 		System.out.println(command);
-		
 		if(command.equals("/join.user")) {
 			request.getRequestDispatcher("/user/user_join.jsp").forward(request, response);
 			

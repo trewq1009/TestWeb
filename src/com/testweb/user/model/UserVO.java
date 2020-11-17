@@ -3,8 +3,8 @@ package com.testweb.user.model;
 public class UserVO {
 
 	private String id;
-	private String name;
 	private String pw;
+	private String name;
 	private String email;
 	private String email_provider;
 	private String phone_first;
