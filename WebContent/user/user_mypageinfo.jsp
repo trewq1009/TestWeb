@@ -73,7 +73,7 @@
                    
                     <form action="updateForm.user" method="post" name="updateForm" hidden class="display-none">
 						<input id="id_post" name="id">
-						<input type="password" id="password_post" name="password">
+						<input type="password" id="password_post" name="pw">
 						<input id="name_post" name="name">
 						<input id="phone_first_post" name="phone1">
 						<input id="phone_second_post" name="phone2">

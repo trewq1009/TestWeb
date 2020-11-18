@@ -11,6 +11,7 @@
         background-size: cover
     }
 </style>
+
 <section>
 
 <div class="container" id="mainCon">
