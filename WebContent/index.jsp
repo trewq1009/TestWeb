@@ -17,7 +17,7 @@
 <div class="container" id="mainCon">
     <div class="jumbotron" id="jbDiv">
         <div class="container" id="introArea">
-        	<h2>ㅎㅇ</h2>
+        	<h2>${vo.id }</h2>
 
         </div>
     </div>

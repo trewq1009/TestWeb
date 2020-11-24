@@ -36,7 +36,7 @@
 	            </table>
 	            
 	            <input type="button" class="btn btn-primary pull-left" value="목록" onclick="location.href='list.board'">
-	            <input type="submit" class="btn btn-primary pull-right" value="글쓰기">
+	            <input type="submit" class="btn btn-primary pull-right" value="글쓰기"> 
 	        </form>
 	    </div>
 	</div>

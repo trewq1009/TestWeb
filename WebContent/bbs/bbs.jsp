@@ -55,7 +55,6 @@
 						</tr>
 					</tbody>
 				</c:forEach>
-	            
       		</table>
 	
 	        <div class="text-center">
@@ -75,7 +74,7 @@
                     </c:if>
 	            </ul>
 	            
-	            <button class="btn btn-info pull-right">글쓰기</button>
+	            <button class="btn btn-info pull-right" onclick="location.href='writer.board'">글쓰기</button>
 	        </div>
 	    </div>
 	</div>

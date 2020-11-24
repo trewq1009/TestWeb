@@ -15,25 +15,25 @@
 	                </div>
 	                <div class="form-group">
 	                    <label>글번호</label>
-	                    <input type="text" class="form-control">
+	                    <input type="text" class="form-control" value="${vo.bno }" disabled>
 	                </div>
 	                <div class="form-group">
 	                    <label>글쓴이</label>
-	                    <input type="text" class="form-control" placeholder="자유">
+	                    <input type="text" class="form-control" value="${vo.writer }" disabled>
 	                </div>
 	                <div class="form-group">
 	                    <label>제목</label>
-	                    <input type="text" class="form-control" placeholder="자유">
+	                    <input type="text" class="form-control" value="${vo.title }" required>
 	                </div>
 	                <div class="form-group">
 	                    <label>내용</label>
-	                    <textarea class="form-control" rows="5"></textarea>
+	                    <textarea class="form-control" rows="5" name="content">${vo.content }</textarea>
 	                </div>
 	                
 	                <!--구현로직: 버튼은 온클릭을 사용하던 자바스크립트를 이용해야 합니다-->
 	                <div class="form-group">
-	                    <button type="button" class="btn btn-success">목록</button>
-	                    <button type="button" class="btn btn-info">수정</button>
+	                    <button type="button" class="btn btn-success" onclick="location.href='list.board'">목록</button>
+	                    <button type="button" class="btn btn-info" onclick="location.href='modify.board'">수정</button>
 	                </div>
 	
 	            </form>

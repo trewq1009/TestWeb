@@ -27,9 +27,9 @@
 	
 	                <!--구현로직: 버튼은 온클릭을 사용하던 자바스크립트를 이용해야 합니다-->
 	                <div class="form-group">
-	                    <button type="button" class="btn btn-success" onclick="list()">목록</button>
-	                    <button type="button" class="btn btn-info" onclick="update()">수정</button>
-	                    <button type="button" class="btn btn-default" onclick="delete()">삭제</button>
+	                    <button type="button" class="btn btn-success" onclick="location.href='list.board'">목록</button>
+	                    <button type="button" class="btn btn-info" onclick="location.href='update.board'">수정</button>
+	                    <button type="button" class="btn btn-default" onclick="location.href='delete.board'">삭제</button>
 	                </div>
 	
 	            </form>
@@ -38,17 +38,5 @@
 </div>
 </section>
 
-<script>
-	function list() {
-		location.href="list.board";
-	}
-	function update() {
-		
-	}
-	function delete() {
-		
-	}
-	
-</script>
 
 <%@ include file="../include/footer.jsp" %>
