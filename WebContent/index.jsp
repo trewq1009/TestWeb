@@ -17,9 +17,7 @@
 <div class="container" id="mainCon">
     <div class="jumbotron" id="jbDiv">
         <div class="container" id="introArea">
-            <h1>게시판 사이트</h1>
-            <p>해당 사이트는 교육용 사이트로써, 학생 여러분들이 알아서 수정, 추가, 삭제 해보시기 바랍니다.</p>
-            <p>글을 써도 되고, 사진을 넣어도 되는 영역 입니다.</p>
+        	<h2>ㅎㅇ</h2>
 
         </div>
     </div>

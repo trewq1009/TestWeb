@@ -39,7 +39,7 @@ public class UserController extends HttpServlet {
 		
 		UserService service;
 		
-		System.out.println(command);
+		System.out.println(request.getContextPath());
 		if(command.equals("/join.user")) {
 			request.getRequestDispatcher("/user/user_join.jsp").forward(request, response);
 			
@@ -56,7 +56,7 @@ public class UserController extends HttpServlet {
 			}
 			
 			
-		} else if(command.equals("/login.user")) {
+		} else if(command.equals("/login.user") || command.equals("/bbs/login.user")) {
 			request.getRequestDispatcher("/user/user_login.jsp").forward(request, response);
 			
 			
